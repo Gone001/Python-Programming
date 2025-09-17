@@ -12,6 +12,6 @@ else:
 if bill >= 1000:
     discount = bill * 5 / 100
     final_bill = bill - discount
-    print(f"Your Electricity bill for {units} units is Rs: {final_bill} (after 5% discount)")
+    print(f"Your Electricity bill for {units} units is Rs: {final_bill}")
 else:
     print(f"Your Electricity bill for {units} units is Rs: {bill}")
